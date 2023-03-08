@@ -71,7 +71,7 @@ if ($societe=="mojazine"){
     
     
     
-    $pdf->Image('abrar.png', 10, 10, 30);
+    $pdf->Image('invest.png', 10, 10, 30);
     /* --- Text --- */
     $pdf->Text(167, 43, 'Le : '.$date);
     /* --- Text --- */
@@ -138,7 +138,7 @@ if ($societe=="mojazine"){
     
     
     $pdf->Output('bitumed.pdf','I');
-}elseif($societe=="invest"){
+}elseif($societe=="industri"){
     $pdf->AddPage();
     
     $pdf->SetAutoPageBreak(true, 10);
@@ -149,7 +149,7 @@ if ($societe=="mojazine"){
     
     
     
-    $pdf->Image('invest.png', 10, 10, 30);
+    $pdf->Image('industri.jpg', 10, 10, 40);
     /* --- Text --- */
     $pdf->Text(167, 43, 'Le : '.$date);
     /* --- Text --- */

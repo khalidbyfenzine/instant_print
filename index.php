@@ -44,7 +44,7 @@
     <input type="radio" name="societe" value="mojazine" checked="checked"> <a style="color: #8E989C;"><strong> Mojazine </strong> </a><br>
     <input type="radio" name="societe" value="abrar"> <a style="color: #8E989C;"><strong> Abrar </strong> </a><br>
     <input type="radio" name="societe" value="bitumed"> <a style="color: #8E989C;"><strong> Bitumed </strong> </a><br>
-    <input type="radio" name="societe" value="invest"> <a style="color: #8E989C;"><strong> invest </strong> </a><br>
+    <input type="radio" name="societe" value="industri"> <a style="color: #8E989C;"><strong> Industrie </strong> </a><br>
     <br><br>
     <input type="submit" name="create" class="submit" value="imprimer">
   </form>
